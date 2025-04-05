@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: #f7f9fb;
+    color: #333;
+  }
+  
+
+  header {
+    background-color: #0072ff;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo {
+    font-size: 28px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #ffdd57;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #eaf2ff;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 4px solid #0072ff;
+  }
+  
+    .section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .section h2 {
+    color: #0072ff;
+    margin-bottom: 15px;
+  }
+  
+  .hobby-list {
+    list-style: square inside;
+    color: #444;
+  }
+  
+  /* SKILLS */
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .skill {
+    background-color: #0072ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+  }
+  
+  .skill:hover {
+    background-color: #0055bb;
+  }
+  
+  /* CONTACT */
+  .contact a {
+    display: inline-block;
+    margin: 10px 5px;
+    text-decoration: none;
+    color: #0072ff;
+    transition: color 0.3s;
+  }
+  
+  .contact a:hover {
+    color: #ff6600;
+  }
+  
+  /* FOOTER */
+  footer {
+    background-color: #0072ff;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+  }
+
+  .telegram-btn {
+    background-color: #0088cc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+
+  }
+  
+  .telegram-btn:hover {
+    background-color: #006699;
+  }
